@@ -11,7 +11,7 @@
 <p> Basically I am creating a pool of tokens. But each pool has one ethereum and another ERC20 token. The total value of ethereum and token in each pool is same. At the time of creation of pool the creator decides the value of each token wrt ethereum. Any subsequent liquidity provider follows that ratio.
   All the liquidites are stored in the smart contract. No withdraw function is developed so even the developer of contract cannot take out tokens from the contract. So contract can be trusted. </p>
 
-<h2> : Swap a token with another token : </h2>
+<h2> Swap a token with another token : </h2>
 <p> The underlying alogrithm behind it is Automated Market Maker. Basically Let's say user wants to exchange 100 DAI for ETH. So if within the pool the value was 1ETH=5DAI. then for 100 dai the person will get 20ETH. and the pool will be updated with original count of DAI  + 100 and ETH would be updated with
   existing ETH-20. Now Let's a user want to exchange 100 DAI for UNI, then first we will use DAI-ETH and then ETH-UNI. This way we are able to find relation between DAI and ETH. </p>
   
