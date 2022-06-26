@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Multiswap
+        </title>
+    </head>
+
+    <body>
+        <h1> Multiswap </h1>
+
+        <h2> Add address of account you want to add in liquidity pool</h2>
+        
+        <button id="connect"> Connect</button> <br> <br>
+        
+        <form>
+            <label for="address">Address</label><br> <br>
+            <input type="text" id="address"> <br> <br>
+
+            <label for="amountEth">Amount of Ethereum to add:</label><br> <br>
+            <input type="text" id="amountEth"> <br> <br>
+
+            <label for="amountToken">Amount of Token to add:</label><br> <br>
+            <input type="text" id="amountToken">
+        </form>
+
+        <br>
+
+        <button id="transfer"> Transfer</button> <br> <br>
+
+        <h1> Swap Your token for Any other Token : </h1>
+
+        <form>
+            <label for="token1">Symbol of Token You Wanna Exchange : </label><br> <br>
+            <input type="text" id="token1"> <br> <br>
+
+            <label for="token2">Symbol of Token You wanna exchange with : </label><br> <br>
+            <input type="text" id="token2"> <br> <br>
+
+            <label for="amount">Amount of tokens you wanna exchange : </label><br> <br>
+            <input type="text" id="amount"> <br> <br>
+        </form>
+
+        <button id="exchange"> Exchange</button>
+
+        <h1> Swap your token for 2 tokens : </h1>
+
+        <form>
+            <label for="t1">Symbol of Token You Wanna Exchange : </label><br> <br>
+            <input type="text" id="t1"> <br> <br>
+
+            <label for="t2">Symbol of Token You wanna exchange with : </label><br> <br>
+            <input type="text" id="t2"> <br> <br>
+
+            <label for="t3">Symbol of Token You wanna exchange with : </label><br> <br>
+            <input type="text" id="t3"> <br> <br>
+
+            <label for="per1">Percentage of money you want in 1st token :  </label><br> <br>
+            <input type="text" id="per1"> <br> <br>
+
+            <label for="per2">Percentage of money you want in 2nd token :  </label><br> <br>
+            <input type="text" id="per2"> <br> <br>
+
+            <label for="amt">Amount of tokens you wanna exchange : </label><br> <br>
+            <input type="text" id="amt"> <br> <br>
+        </form>
+
+         <button id="swap"> Swap </button>
+
+        <script src="./index.js" type="module">
+        </script>
+        
+    </body>
+</html>
